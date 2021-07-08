@@ -1,3 +1,19 @@
 body{
     background-color: lightgray;
 }
+
+.game-board-style{
+    width: 30em;
+    height: 30em;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(90px, 1fr));
+    grid-template-rows: repeat(3, minmax(90px, 1fr));
+    row-gap: 1em;
+    column-gap: 1em;
+    margin: auto;
+    background-color: skyblue;
+}
+
+.mark-spaces{
+    background-color: white;
+}
